@@ -16,8 +16,7 @@ return (
 
 <main>
 <section id="hero" className="card">
-<h2>Hello — I'm Mimkh</h2>
-<p>I build clean web experiences and brand identities. This is a quick starter site using your chosen headline font.</p>
+<h2>Hi I'm Mohammdkhalvat</h2>
 <div className="buttons">
 <a href="#work" className="btn">View work</a>
 <a href="#contact" className="btn primary">Get in touch</a>
@@ -44,13 +43,14 @@ return (
 
 <section id="about" className="section">
 <h3>About</h3>
-<p>Short bio about Mimkh — who you are, what you do, and a call to action.</p>
+<p>I'm Mohammad and Im planning to make it better</p>
 </section>
 
 
 <section id="contact" className="section">
 <h3>Contact</h3>
-<p>Email: hello@mimkh.com</p>
+<p>Email: MohammadKhalvat5757@gmail.com</p>
+<p>phone:+1(647)-869-6904</p>
 </section>
 </main>
 
