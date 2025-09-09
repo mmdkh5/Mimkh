@@ -25,13 +25,21 @@ return (
 </section>
 
 
-<section id="work" className="section">
-<h3>Selected work</h3>
-<div className="grid">
-<article className="card">Project A</article>
-<article className="card">Project B</article>
-</div>
+<section id="work" className="work">
+  <h2>Products</h2>
+  <div className="projects-grid">
+    <div className="card">
+      <h3>Mimkh T-Shirt</h3>
+      <div className="product-images">
+        <img src="/products/tshirt-front.jpg" alt="Mimkh T-Shirt Front" />
+        <img src="/products/tshirt-back.jpg" alt="Mimkh T-Shirt Back" />
+      </div>
+      <p>High-quality cotton T-shirt featuring the Mimkh design. Front & back print.</p>
+      <button className="buy-btn">Buy Now</button>
+    </div>
+  </div>
 </section>
+
 
 
 <section id="about" className="section">
