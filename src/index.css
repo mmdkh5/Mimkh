@@ -313,4 +313,76 @@ footer {
 
 /* smooth scroll if not already present */
 html { scroll-behavior: smooth; }
+/* --- Work, About, Contact sections --- */
+.work, .about, .contact {
+  padding: 80px 24px;
+  max-width: 1100px;
+  margin: 0 auto 40px auto;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+  background: rgba(255,255,255,0.05);
+  backdrop-filter: blur(6px);
+  color: #fff;
+}
+
+/* Section headings */
+.work h2, .about h2, .contact h2 {
+  font-size: 32px;
+  margin-bottom: 24px;
+  color: #ffdd59;
+  text-align: center;
+}
+
+/* Section paragraphs */
+.work p, .about p, .contact p {
+  font-size: 18px;
+  line-height: 1.6;
+  margin-bottom: 24px;
+  text-align: center;
+  color: #e0e0e0;
+}
+
+/* Buttons */
+.work .btn, .about .btn, .contact .btn {
+  display: inline-block;
+  padding: 12px 28px;
+  background: #ffdd59;
+  color: #080a14;
+  font-weight: 600;
+  font-size: 16px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: all 0.3s ease;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.2);
+}
+
+/* Button hover effect */
+.work .btn:hover, .about .btn:hover, .contact .btn:hover {
+  background: #ffc107;
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+/* Section items/cards (optional) */
+.work .project-item, .about .info-item, .contact .form-item {
+  margin-bottom: 24px;
+  border-radius: 8px;
+  background: rgba(255,255,255,0.05);
+  padding: 16px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .work, .about, .contact {
+    padding: 60px 16px;
+  }
+  .work h2, .about h2, .contact h2 {
+    font-size: 28px;
+  }
+  .work p, .about p, .contact p {
+    font-size: 16px;
+  }
+}
+
 
