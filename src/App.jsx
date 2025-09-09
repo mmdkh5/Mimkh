@@ -5,7 +5,7 @@ export default function App() {
 return (
 <div className="container">
 <header className="header">
-<h1 className="logo">Mimkh</h1>
+<h1 className="logo">MMDKHALVAT</h1>
 <nav className="nav">
 <a href="#work">Work</a>
 <a href="#about">About</a>
@@ -28,7 +28,7 @@ return (
   <h2>Products</h2>
   <div className="projects-grid">
     <div className="card">
-      <h3>Mimkh T-Shirt</h3>
+      <h3>MMD'S T-Shirts</h3>
       <div className="product-images">
         <img src="/products/tshirt-front.jpg" alt="Mimkh T-Shirt Front" />
         <img src="/products/tshirt-back.jpg" alt="Mimkh T-Shirt Back" />
@@ -43,7 +43,7 @@ return (
 
 <section id="about" className="section">
 <h3>About</h3>
-<p>I'm Mohammad and Im planning to make it better</p>
+<p>I'm Mohammad, and I'm planning to make it better</p>
 </section>
 
 
